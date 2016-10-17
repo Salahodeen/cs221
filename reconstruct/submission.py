@@ -7,6 +7,7 @@ import wordsegUtil
 
 class SegmentationProblem(util.SearchProblem):
     def __init__(self, query, unigramCost):
+        #test commit
         self.query = query
         self.unigramCost = unigramCost
 
